@@ -1,0 +1,90 @@
+[
+  {
+    "uri": "features/youtube.feature",
+    "id": "as-a-customer,-i-want-to-search-something-on-the-youtube",
+    "keyword": "Feature",
+    "name": "As a customer, I want to search something on the Youtube",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "as-a-customer,-i-want-to-search-something-on-the-youtube;search-something-on-the-youtube",
+        "keyword": "Scenario",
+        "name": "Search something on the Youtube",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.6.2/lib/capybara/cucumber.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.6.2/lib/capybara/cucumber.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I'm on \"https://www.youtube.com\" page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/youtube_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5278263000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I type \"Install Cucumber Ruby Capybara\" in search field",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/youtube_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3699731000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Install Selenium Ruby Capybara step by step\" in result",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/youtube_steps.rb:12"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "expected to find text \"Install Selenium Ruby Capybara step by step\" in \"Remind me later Review A privacy reminder from YouTube, a Google company GB UploadSign in Search Home Trending Choose your language. Learn more You're viewing YouTube in English (UK). You can change this preference below. 0:35 Star Wars: Episode VIII Production Announcement Star Wars 4,830,587 views1 day ago 1:20 Game of Thrones Season 6: Hall of Faces Tease (HBO) GameofThrones 5,040,390 views1 day ago 2:42 Marvel's Daredevil - Season 2 - Official Trailer - Part 1 - Netflix [HD] Netflix US & Canada 2,234,441 views1 day ago 0:29 GHOSTBUSTERS - Trailer Announcement Sony Pictures Entertainment 1,860,004 views1 day ago Latest Videos – Movies by #Movies 0:35 Star Wars: Episode VIII Production Announcement Star Wars 4,830,587 views1 day ago 0:29 GHOSTBUSTERS - Trailer Announcement Sony Pictures Entertainment 1,860,004 views1 day ago 5:12 Sacha Baron Cohen Shows EXTREMELY Graphic Movie Clip to “Kimmel” Audience Jimmy Kimmel Live 1,754,356 views5 days ago 2:13 Batman v Superman Dawn of Justice Official Final Trailer (2016) - Ben Affleck Superhero Movie HD Movieclips Trailers 4,667,109 views4 days ago GoPro Recommended channel Subscribe3,724,010 6:53 GoPro: AJ Stuntz - The 6-Year-Old Stunt Rider GoPro 2,373,356 views1 month ago 14:43 GoPro: Lions - The New Endangered Species? GoPro 30,731,847 views2 years ago 4:56 GoPro: Best of 2015 - The Year in Review GoPro 3,040,947 views1 month ago 2:54 GoPro: Fabio Wibmer's Downhill Chase - GoPro of the World November Winner GoPro 754,334 views1 month ago Top Tracks – United Kingdom by #Music 6:07 Adele - Hello AdeleVEVO 1,180,277,493 views3 months ago 3:26 Justin Bieber - Sorry (PURPOSE : The Movement) JustinBieberVEVO 851,131,202 views3 months ago 4:56 Drake - Hotline Bling DrakeVEVO 481,750,797 views3 months ago 4:21 Coldplay - Hymn For The Weekend (Official video) Coldplay Official 54,108,014 views2 weeks ago Warner Bros. Pictures Recommended channel Subscribe2,629,924 1:51 Central Intelligence - Official Teaser Trailer [HD] Warner Bros. Pictures 4,949,599 views2 months ago 2:32 Suicide Squad - Official Trailer 1 [HD] Warner Bros. Pictures 38,518,489 views3 weeks ago 2:08 The Legend of Tarzan - Official Teaser Trailer [HD] Warner Bros. Pictures 18,361,653 views2 months ago 2:34 Point Break - Official Trailer [HD] Warner Bros. Pictures 16,917,807 views8 months ago This Morning Recommended channel Subscribe51,544 19:54 Extraordinary People With Extreme Cosmetic Surgery | This Morning This Morning 150,421 views2 months ago 6:46 The Undateables' James And Tammy On Looking For Love | This Morning This Morning 167,411 views1 month ago 5:59 Colin Cloud Freaks Out Holly Willoughby After Mind Reading An Embarrassing Memory | This Morning This Morning 192,852 views1 month ago 2:35 Phillip and Holly Struggle to Recover From Their NTA Win! | This Morning This Morning 2,177,999 views3 weeks ago Latest Videos – Music by #Music 1:29 Rihanna - Work (In Studio / Behind The Scenes) ft. Drake RihannaVEVO 4,981,287 views1 week ago 4:21 Coldplay - Hymn For The Weekend (Official video) Coldplay Official 54,108,014 views2 weeks ago 3:27 ZAYN - PILLOWTALK ZaynVEVO 93,192,020 views2 weeks ago 4:21 Little Mix - Secret Love Song (Official Video) ft. Jason Derulo littlemixVEVO 4,759,223 views1 week ago BBC Recommended channel Subscribe3,036,060 6:26 Seth MacFarlane performs his Family Guy voices - The Graham Norton Show: Series 15 - BBC One BBC 10,808,567 views1 year ago 5:28 Adele at the BBC: When Adele wasn't Adele... but was Jenny! BBC 45,161,549 views2 months ago 6:22 Will & Jaden Smith, DJ Jazzy Jeff and Alfonso Ribeiro Rap! - The Graham Norton Show - BBC One BBC 38,830,466 views2 years ago 4:45 Origins: Rap Battle - WW1 Uncut - BBC BBC 1,309,742 views1 year ago Load more Language: English (UK) Country: United Kingdom Restricted Mode: Off History Help About Press Copyright Creators Advertise Developers +YouTube Terms Privacy Policy & Safety Send feedback Try something new! © 2016 YouTube, LLC\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/youtube_steps.rb:13:in `/^I should see \"([^\"]*)\" in result$/'\nfeatures/youtube.feature:6:in `Then I should see \"Install Selenium Ruby Capybara step by step\" in result'",
+              "duration": 18495788000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-2.6.2/lib/capybara/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 461724000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
