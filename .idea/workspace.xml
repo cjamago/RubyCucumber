@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/Demo@Scenario__Search_something_on_the_Youtube__5_.coverage" NAME="Scenario: Search something on the Youtube (5) Coverage Results" MODIFIED="1455630253874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature" MODULE_NAME="Demo" />
     <SUITE FILE_PATH="coverage/Demo@env.coverage" NAME="env Coverage Results" MODIFIED="1455628915671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature" MODULE_NAME="Demo" />
     <SUITE FILE_PATH="coverage/Demo@Scenario__Search_something_on_the_Youtube__2_.coverage" NAME="Scenario: Search something on the Youtube (2) Coverage Results" MODIFIED="1455629797421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature" MODULE_NAME="Demo" />
-    <SUITE FILE_PATH="coverage/Demo@youtube_feature.coverage" NAME="youtube.feature Coverage Results" MODIFIED="1455632421408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DemoCucumberRuby" MODULE_NAME="Demo" />
+    <SUITE FILE_PATH="coverage/Demo@youtube_feature.coverage" NAME="youtube.feature Coverage Results" MODIFIED="1455634059628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DemoCucumberRuby" MODULE_NAME="Demo" />
     <SUITE FILE_PATH="coverage/Demo@Scenario__Seearch_something_on_the_Youtube__2_.coverage" NAME="Scenario: Seearch something on the Youtube (2) Coverage Results" MODIFIED="1455627960801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature" MODULE_NAME="Demo" />
     <SUITE FILE_PATH="coverage/Demo@Scenario__Search_something_on_the_Youtube.coverage" NAME="Scenario: Search something on the Youtube Coverage Results" MODIFIED="1455630241105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature" MODULE_NAME="Demo" />
     <SUITE FILE_PATH="coverage/Demo@All_features_in_feature__Demo.coverage" NAME="All features in feature: Demo Coverage Results" MODIFIED="1455630323746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Demo" />
@@ -81,6 +81,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DemoCucumberRuby/features/support/env.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -94,6 +104,7 @@
         <option value="$PROJECT_DIR$/features/youtube.feature" />
         <option value="$PROJECT_DIR$/../DemoCucumberRuby/features/step_definitions/youtube_steps.rb" />
         <option value="$PROJECT_DIR$/../DemoCucumberRuby/README.md" />
+        <option value="$PROJECT_DIR$/../DemoCucumberRuby/features/support/env.rb" />
       </list>
     </option>
   </component>
@@ -179,6 +190,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoCucumberRuby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -197,11 +226,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../DemoCucumberRuby/features/support" />
       <recent name="$PROJECT_DIR$/features/step_definitions" />
       <recent name="$PROJECT_DIR$/features" />
       <recent name="$PROJECT_DIR$/feature" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../DemoCucumberRuby" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -539,34 +570,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_features_in_feature__Demo - 2016.02.16 at 13h 45m 11s.xml">
-      <configuration name="All features in feature: Demo" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_features_in_feature__Demo - 2016.02.16 at 13h 45m 24s.xml">
-      <configuration name="All features in feature: Demo" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Search_something_on_the_Youtube_(1) - 2016.02.16 at 13h 53m 14s.xml">
-      <configuration name="Scenario: Search something on the Youtube (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Search_something_on_the_Youtube_(1) - 2016.02.16 at 13h 54m 47s.xml">
-      <configuration name="Scenario: Search something on the Youtube (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Search_something_on_the_Youtube_(5) - 2016.02.16 at 13h 44m 14s.xml">
-      <configuration name="Scenario: Search something on the Youtube (5)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="youtube_feature - 2016.02.16 at 14h 16m 00s.xml">
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 42m 30s.xml">
       <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="youtube_feature - 2016.02.16 at 14h 16m 25s.xml">
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 43m 32s.xml">
       <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="youtube_feature - 2016.02.16 at 14h 17m 20s.xml">
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 44m 29s.xml">
       <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="youtube_feature - 2016.02.16 at 14h 18m 09s.xml">
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 45m 08s.xml">
       <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="youtube_feature - 2016.02.16 at 14h 20m 39s.xml">
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 45m 55s.xml">
+      <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 46m 12s.xml">
+      <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 46m 55s.xml">
+      <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 46m 59s.xml">
+      <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 47m 24s.xml">
+      <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="youtube_feature - 2016.02.16 at 14h 47m 47s.xml">
       <configuration name="youtube.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
@@ -665,14 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DemoCucumberRuby/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DemoCucumberRuby/features.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-870">
@@ -717,6 +740,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoCucumberRuby/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
           <folding />
         </state>
       </provider>
